@@ -1,0 +1,6 @@
+image: ubuntu:latest
+tasks:
+  - name: Install Nexus CLI
+    command: |
+      curl -L https://nexus.xyz/downloads/nexus-cli -o nexus
+      chmod +x nexus
